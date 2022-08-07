@@ -1,4 +1,16 @@
-# Algo-visualiser
+# GUI Appications
+This repo consists of GUI Apps made with pygame (python library) and processing (java framework for creating GUI Apps).
+
+## Carlin Game
+This Application is made with Processing framework (Link: https://processing.org/)
+### Screenshots
+<img align="left" src="Processing/Images/Carlin.PNG" width="400" height="500"><img src="Processing/Images/CarlinImg2.PNG" width="400" height="500">
+
+## Tetris Game
+This Application is made with Processing framework.
+### Screenshots
+<img align="left" src="Processing/Images/Tetris.PNG" width="300" height="500"><img src="Processing/Images/TetrisImg3.PNG" width="300" height="500">
+
 ## BFS
 Breadth-first search is an algorithm for traversing or searching tree or graph data structures. It starts at the tree root, and explores all of the neighbor nodes at the present depth prior to moving on to the nodes at the next depth level.
 
@@ -29,7 +41,7 @@ Sudoku is a logic-based, combinatorial number-placement puzzle. In classic sudok
 5) **Manual Solving** <br/>
 
 ### Screenshots
-<img src="images/1.PNG" width="400" height="500">  <img src="images/2.PNG" width="400" height="500">
+<img src="Pygame/images/1.PNG" width="400" height="500">  <img src="Pygame/images/2.PNG" width="400" height="500">
 
 ### Time and Space Complexity
 Time complexity of backtracking algorithm is ```O(N^(N * N))``` where N is the grid size <br/>
@@ -39,7 +51,7 @@ Space complexity is ```O(N * N)```
 Bubble sort, sometimes referred to as sinking sort, is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements and swaps them if they are in the wrong order. The pass through the list is repeated until the list is sorted.
 
 ### Screenshots
-<img src="images/5.PNG" width="400" height="400" align="left">  <img src="images/6.PNG" width="400" height="400" aligh="right">
+<img src="Pygame/images/5.PNG" width="400" height="400" align="left">  <img src="Pygame/images/6.PNG" width="400" height="400" aligh="right">
 
 ### Time Complexity
 Time complexity of bubble sort is ```O(N*N)```
@@ -52,4 +64,4 @@ DFS traverses the graph depthwise. when it reaches a dead end, it backtracks and
 Add source, destination, obstacles and visualise DFS!
 
 ### Screenshots
-<img src="images/7.PNG" width="800" height="800">
+<img src="Pygame/images/7.PNG" width="800" height="800">
